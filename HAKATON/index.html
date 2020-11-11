@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesome-free/css/all.css">
+</head>
+
+<body onload="myFunction()">
+    <!-- loader -->
+    <div id="loader"></div>
+
+    <!-- navbar header -->
+    <div class="all animate-bottom" style="display: none;">
+        <div id="header">
+            <div class="container">
+                <img src="images/logo__top.png" alt="no image" width="140px" height="68px">
+                <!-- bulardan 2taligini sababi komputer o'lchamiga <ul> ishlaydi, telefon o'lchamiga #window id li element ishlaydi-->
+                <div id="window" class="main">
+                    <a href="javascript:void(0)" class="closeX" onclick="closeWindow()">&times;</a>
+                    <div class="main-window-content">
+                        <a href="#header-background" onclick="closeWindow()">Home</a>
+                        <a href="#apps" onclick="closeWindow()">Key Features</a>
+                        <a href="#money" onclick="closeWindow()">Pricing</a>
+                        <a href="#ultimate" onclick="closeWindow()">Testiminial</a>
+                        <a href="#footer" onclick="closeWindow()">FAQ</a>
+                        <a href="#question" onclick="closeWindow()">Try for free</a>
+                    </div>
+                </div>
+                <i onclick="openWindow()"></i>
+                <ul>
+                    <li><a href="#header-background">Home</a></li>
+                    <li><a href="#apps">Key Features</a></li>
+                    <li><a href="#money">Pricing</a></li>
+                    <li><a href="#ultimate">Testiminial</a></li>
+                    <li><a href="#footer">FAQ</a></li>
+                    <li><a href="#question">Try for free</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="clr"></div>
+
+        <!-- header-background banner-->
+        <div id="header-background">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <img src="images/editors_choice.png" alt="no image">
+                        <h1>Best app for your modern lifestyle</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi quas reprehenderit distinctio
+                            voluptate omnis maiores!
+                        </p>
+                        <button type="button" class="btn-bg">Try for free</button>
+                        <button type="button" class="btn">Watch domo video</button>
+                    </div>
+                    <div class="header-field-6-right" style="text-align: center;">
+                        <img src="images/header__smartfon.png" alt="no image">
+                    </div>
+                </div>
+                <!-- <div class="clr"></div> -->
+            </div>
+        </div>
+
+        <div id="brands">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <p style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; text-align: center;">
+                            Trusted by companies like</p>
+                        <img src="images/brands.png" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="apps">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <img src="images/features.png" alt="no image">
+                    </div>
+                    <div class="header-field-6-right">
+                        <h1>Awesome apps features</h1>
+                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span>
+                        <div class="clr"></div>
+                        <img src="images/speed.png" class="img1" alt="no image">
+                        <h4 style="color: red">Fast Performance</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum maiores sed</p>
+                        <div class="clr"></div>
+                        <img src="images/protype.png" alt="no image">
+                        <h4 style="color: blue">Fast Prototyping</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum maiores sed</p>
+                        <div class="clr"></div>
+                        <img src="images/vector.png" alt="no image">
+                        <h4 style="color: green">Vektor Editing</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum maiores sed</p>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="text">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <h1>Smart jackpots that you may love this anytime & anywhere</h1>
+                    </div>
+                    <div class="header-field-6-right">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore soluta cupiditate iste rerum sapiente sint atque aperiam, ea iure. Culpa voluptatem at inventore. Dolores, quae commodi necessitatibus dicta labore quibusdam voluptatibus dolor ratione quia consequatur omnis vero dolorum minima unde!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="iconText">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-4">
+                        <img src="images/payout.png" alt="no image">
+                        <h3 style="color: red">Automatic Payouts</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim voluptas delectus
+                        </p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/network.png" alt="no image">
+                        <h3 style="color: blue">Network Effect</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim voluptas delectus
+                        </p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/badge.png" alt="no image">
+                        <h3 style="color: green">Bigger Rewards Method</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur enim voluptas delectus
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="learn">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <img src="images/languages.png" alt="no image">
+                    </div>
+                    <div class="header-field-6-right">
+                        <h1>Designed & built by <br>the latest code integration</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus illo porro
+                            repudiandae? Necessitatibus illo porro
+                            repudiandae?</p>
+                        <button type="button" class="btn-bg">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="imageText" style="text-align: center;">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <h1>Why you should choose <br>our app</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit cumque. <br>vitae
+                            repudiandae asperiores facere atque?</p>
+                    </div>
+                </div>
+                <div class="header-row" style="margin-top: 20px;">
+                    <div class="header-field-4">
+                        <img src="images/app.png" alt="no image" style="background-color: pink;">
+                        <h3>App Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/cup.png" alt="no image" style="background-color: powderblue;">
+                        <h3>10 Times Award</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/cloud.png" alt="no image" style="background-color: palegoldenrod;">
+                        <h3>Cloud Storage</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                </div><br>
+                <div class="header-row">
+                    <div class="header-field-4">
+                        <img src="images/settings.png" alt="no image" style="background-color: darkseagreen;">
+                        <h3>Customization</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/ux.png" alt="no image" style="background-color: lightgray;">
+                        <h3>UX Planning</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                    <div class="header-field-4">
+                        <img src="images/support.png" alt="no image" style="background-color: tan;">
+                        <h3>Customer Support</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta dignissimos tenetur maxime ipsam doloremque!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="ultimate">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <h1>Ultimate features that we built</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing <br>elit. Eligendi, cumque.</p>
+                    </div>
+                </div>
+                <div class="header-row row1">
+                    <div class="header-field-3">
+                        <img src="images/app.png" alt="no image" style="background-color: pink">
+                        <h3>App Development</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut mollitia deserunt?
+                        </p>
+                    </div>
+                    <div class="header-field-3">
+                        <img src="images/ux.png" alt="no image" style="background-color: darkseagreen">
+                        <h3>UX Planing</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut mollitia deserunt?
+                        </p>
+                    </div>
+                </div>
+                <div class="header-row">
+                    <div class="header-field-3">
+                        <img src="images/cloud.png" alt="no image" style="background-color: palegoldenrod">
+                        <h3>Cloud Storage</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut mollitia deserunt?
+                        </p>
+                    </div>
+                    <div class="header-field-3">
+                        <img src="images/support.png" alt="no image" style="background-color: lightgray">
+                        <h3>Customer Support</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores aut mollitia deserunt?
+                        </p>
+                    </div>
+                    <div class="header-field-6-right">
+                        <img src="images/phone.png" alt="no image">
+                    </div>
+                </div>
+                <button type="button" class="btn-bg">See all</button>
+            </div>
+        </div>
+        <!-- <div class="clr"></div> -->
+
+        <div id="money" style="text-align: center;">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <h1>Get awesome features, without extra charges</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deseruntlaudantium dolorum
+                            recusandae <br> provident, vel rerum! provident, vel rerum! provident, vel rerum!</p><br>
+                        <span class="boolean">
+                            <span class="marginLeft" onclick="isChecked()">Monthly</span>
+                        </span>
+                    </div>
+                </div>
+                <!-- <div class="clr"></div> -->
+                <div class="header-row topMargin">
+                    <div class="header-field-6-left">
+                        <div class="border">
+                            <div class="head">
+                                <h1>$0<span style="font-size: 14px;">/month</span></h1>
+                                <h3>Business Class</h3>
+                                <p>For small teams or office</p>
+                            </div>
+                            <div class="body">
+                                <p>Drog & Drop Builder</p>
+                                <p>1,000's of Template</p>
+                                <p>Blog Support Tools</p>
+                                <p>eCommerce Store</p>
+                                <button type="button" class="btn-bg">Start free trail</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-field-6-right">
+                        <div class="border">
+                            <div class="head">
+                                <h1>$99<span style="font-size: 14px;">/month</span></h1>
+                                <h3>Pro Master</h3>
+                                <p>For Bast opportunities</p>
+                            </div>
+                            <div class="body">
+                                <p>Drog & Drop Builder</p>
+                                <p>1,000's of Template</p>
+                                <p>Blog Support Tools</p>
+                                <p>eCommerce Store</p>
+                                <button type="button" class="btn-bg">Subscribe Now</button><br>
+                                <p>Or start 14 days trail</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="width: 100%; color: rgb(240, 228, 228);">
+
+        <div id="zoom">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <img src="images/photos.png" alt="no image">
+                    </div>
+                    <div class="header-field-6-right">
+                        <h1>Meet Client Satisfaction by using product</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident inventore eaque possimus!
+                        </p>
+                        <i class="fas fa-star fa-1x"></i>
+                        <i class="fas fa-star fa-1x"></i>
+                        <i class="fas fa-star fa-1x"></i>
+                        <i class="fas fa-star fa-1x"></i>
+                        <i class="fas fa-star fa-1x"></i>
+                        <h3>Use friendly & Customizable</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et expedita repudiandae accusamus
+                            debitis, iste laboriosam cum voluptas perferendis quaerat. Cupiditate magni corporis,
+                            accusamus nesciunt dicta eveniet.</p>
+                        <img src="images/man__image.png" alt="no image">
+                        <h4>Zaltan Nemeth</h4>
+                        <span>CEO of Pixler Lab</span>
+                        <div class="clr"></div>
+                        <i class="far fa-arrow-alt-circle-right fa-2x i2 " style="color: rgb(223, 132, 150);"></i>
+                        <i class="far fa-arrow-alt-circle-left fa-2x i1 " style="color: rgb(223, 132, 150);"></i>
+                        <!-- <div class="clr"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="question">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <h1 style="text-align: center;">Frequently asked questions</h1>
+                        <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                            nemo unde minus, adipisci <br> reiciendis omnis! Distinctio ipsum quis molestiae ducimus?
+                        </p>
+                        <div class="square">
+                            <h3>How to contact with riders emergency?</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quaerat commodi eius eligendi ipsum obcaecati quibusdam quos quas sit aperiam deserunt numquam, sunt dolorem a ea dolor. Id corrupti eum fuga, provident nemo dolorem sunt quidem, soluta quia exercitationem nisi delectus amet veniam, nihil esse culpa! Suscipit reprehenderit commodi maiores.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <div class="collapse">App installation failed, how to update system information?<i class="fas fa-plus "></i></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi sapiente possimus dolor dicta quo impedit cumque perferendis fugit amet aliquam ullam, inventore, exercitationem delectus asperiores esse, corrupti recusandae voluptatum omnis iure laudantium aliquid sed quod? Nostrum cum dignissimos soluta quod quae quidem, iusto deleniti, officiis mollitia incidunt, voluptas aliquam.</p>
+                        </div>
+                        <div class="collapse">App installation failed, how to update system information?<i class="fas fa-plus "></i></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi sapiente possimus dolor dicta quo impedit cumque perferendis fugit amet aliquam ullam, inventore, exercitationem delectus asperiores esse, corrupti recusandae voluptatum omnis iure laudantium aliquid sed quod? Nostrum cum dignissimos soluta quod quae quidem, iusto deleniti, officiis mollitia incidunt, voluptas aliquam.</p>
+                        </div>
+                        <div class="collapse">App installation failed, how to update system information?<i class="fas fa-plus "></i></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi sapiente possimus dolor dicta quo impedit cumque perferendis fugit amet aliquam ullam, inventore, exercitationem delectus asperiores esse, corrupti recusandae voluptatum omnis iure laudantium aliquid sed quod? Nostrum cum dignissimos soluta quod quae quidem, iusto deleniti, officiis mollitia incidunt, voluptas aliquam.</p>
+                        </div>
+                        <div class="collapse">App installation failed, how to update system information?<i class="fas fa-plus "></i></div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi excepturi sapiente possimus dolor dicta quo impedit cumque perferendis fugit amet aliquam ullam, inventore, exercitationem delectus asperiores esse, corrupti recusandae voluptatum omnis iure laudantium aliquid sed quod? Nostrum cum dignissimos soluta quod quae quidem, iusto deleniti, officiis mollitia incidunt, voluptas aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clr"></div>
+        <hr style="width: 100%; color: rgb(240, 228, 228);">
+
+        <div id="download">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-6-left">
+                        <h1>Download our App now!</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ut vel mollitia cum excepturi magnam error! Delectus nam molestiae, et optio sed quae consectetur quaerat?</p>
+                        <a href="https://www.android.com"><img src="images/playstore.png" alt="no image"></a>
+                        <a href="https://www.apple.com"><img src="images/appstore.png" alt="no image"></a>
+                    </div>
+                    <div class="header-field-6-right">
+                        <img src="images/man__phone.png" alt="no image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="container">
+                <div class="header-row">
+                    <div class="header-field-12">
+                        <img src="images/footer_logo.png" alt="no image">
+                        <ul>
+                            <li><a href="#header-background">Home</a></li>
+                            <li><a href="#apps">Key Features</a></li>
+                            <li><a href="#money">Pricing</a></li>
+                            <li><a href="#ultimate">Testiminial</a></li>
+                            <li><a href="#footer">FAQ</a></li>
+                        </ul>
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                        <i class="fab fa-slack-hash fa-2x"></i>
+                        <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
+                        <p style="color: #fff;">Copyright&copy; To'rayev Hikmat Ravshanovich 2020. All rights reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
